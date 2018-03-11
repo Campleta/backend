@@ -1,0 +1,39 @@
+.navbar, .navbar-header, .navbar-collapse, .navbar-brand, .navbar-nav, .navbar-nav > li, .navbar-nav > li > a {
+    height: 60px;
+    border-radius: 0px;
+}
+.navbar-brand, .navbar-nav > li > a {
+    line-height: 30px;
+    color: #fff;
+}
+.navbar-nav > li > a:hover {
+    background-color: #449D44;
+}
+.navbar-brand:hover {
+    color: #fff;
+    background-color: #449D44;
+}
+.navbar-nav > .active > a {
+    background-color: #449D44 !important;
+}
+.navbar {
+    background-color: #5cb85c;
+    border-color: transparent;
+}
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover,
+.nav .open > a:active {
+    background-color: #449D44;
+}
+.dropdown-menu {
+    background-color: #449D44;
+}
+.dropdown-menu > li > a {
+    color: #fff;
+}
+.dropdown-menu > li:hover,
+.dropdown-menu > li > a:hover {
+    background-color: #5cb85c;
+    color: #fff;
+}

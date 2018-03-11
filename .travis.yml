@@ -1,0 +1,13 @@
+language: java
+sudo: false # faster builds
+jdk:
+   - oraclejdk8
+env:
+   - CI=true
+services:
+   - mysql
+before_install:
+   - mysql -e 'DROP DATABASE IF EXISTS campleta_test;'
+   - mysql -e 'CREATE DATABASE campleta_test;'
+before_script:
+   - mysql -e 'SET GLOBAL time_zone="+00:00";'
